@@ -16,12 +16,40 @@
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     background: url("http://lorempixel.com/output/city-q-c-1140-283-9.jpg");
+     /*background: url("http://wallpoper.com/images/00/45/10/42/golden-gate-bridge-black-and-white_00451042.jpg");*/
+     opacity: 0.4;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.img-circle {
+     max-width: 140px;
+     height: 140px;
+     display: block;
+     float: right;
+}
+
+.project {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.project_title {
+     font-size: 20px;
+     margin-top: auto;
+     margin-bottom: auto;
+}
+
+.title {
+     text-align: center;
+}
+
+.container-2 {
+     margin-left: 10%;
+     margin-right: 10%;
 }
